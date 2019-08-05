@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Residuum</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/CSS3FullscreenSlideshow/css/style1.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link rel="stylesheet" href="assets/fonts/custom/css/residuum-custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Custom styles  -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+          integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+          crossorigin="anonymous">
+  </head>
+  
+  <body id="page-top">
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">residuum</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#home">Domov</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#raiding">Raiding</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#guilda">Raiding Skupina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#nabor">Nábor</a>
+            </li>            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="masthead text-center text-white d-flex animated fadeIn" id="home">
+
+      <ul class="cb-slideshow">
+          <li><span>Image 01</span></li>
+          <li><span>Image 02</span></li>
+          <li><span>Image 03</span></li>
+          <li><span>Image 04</span></li>
+          <li><span>Image 05</span></li>
+          <li><span>Image 06</span></li>
+      </ul>       
+      
+      <div class="container my-auto">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h1>             
+              <strong>Residuum</strong>
+            </h1>
+            <hr>
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <p class="text-faded mb-5 text-white">Jsme aktivně raidující PvE guilda na serveru Thunderhorn s hráči z České a Slovenské republiky.</p>
+            <div class="col">
+              <div class="social-icons">
+                <a class="fa-contact-screen white" target="_blank" href="https://discord.gg/a6vsSP2">
+                  <i class="icon-discord" aria-hidden="true"></i>
+                </a>
+                <a class="fa-contact-screen white" href="ts3server://ts.residuum.cz/">
+                  <i class="icon-teamspeak" aria-hidden="true"></i>
+                </a>
+                <a class="fa-contact-screen white" target="_blank" href="https://raider.io/guilds/eu/thunderhorn/Residuum">
+                  <i class="icon-raider" aria-hidden="true"></i>
+                </a>
+                <a class="fa-contact-screen white" target="_blank" href="http://eu.battle.net/wow/en/guild/thunderhorn/Residuum/">
+                  <i class="icon-wow" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-primary bg-light text-dark" id="raiding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-title">Raiding</h2>
+            <hr class="my-4">
+            <p class="text-faded mb-4">Raidy jsou každé pondělí a středu v 19:00 CET.</p>
+            <div class="spinner" id="progressLoading">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>            
+            <div id="progress" class="raidingBox"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="guilda">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-title">Raiding Skupina</h2>
+            <hr class="my-4">          
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <div class="spinner" id="raidingLoading">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>                    
+            <div id="roster" class="box"></div>                 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="nabor">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-title">Nábor</h2>
+            <hr class="my-4">
+            <p class="text-faded mb-4">Současně nabíráme hráče bez omezení, přijďte se k nám podívat na Discord nebo Teamspeak.</p>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <footer>
+        <p class="container-fluid text-center">Autor <a target="_blank" href="https://github.com/BorderKeeper">BorderKeeper</a></p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Custom scripts -->
+    <script src="assets/js/app.js"></script>
+
+  </body>
+</html>
